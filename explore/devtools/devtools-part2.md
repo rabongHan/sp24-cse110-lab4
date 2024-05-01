@@ -1,0 +1,3 @@
+**Q1**: The value of *num1* and *num2* are assigned by *document.getElementById().value*. This leads *num1* and *num2* to be string. Thus, when we add *num1* and *num2*, it will perform concatenation of two strings. For example, if we put 1 for *num1* and 3 for *num2*, it will result in '13'. 
+
+**Q2**: To fix this bug, we can convert *num1* and *num2* into numbers. To achieve that, I used *parseInt* with a radix of 10; I specified the radix to ensure that numbers are considered as base 10. 
